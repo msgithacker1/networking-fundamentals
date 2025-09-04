@@ -1,1 +1,38 @@
+#The 4 main components of a network are end devices, intermediary devices, network media & software components and servers
+
+- End Devices/Hosts: Play a huge role in data transmission and consumption. Examples include laptops, computers, tablets and phones. Allow a user to access network-related services like browsing the Internet. 
+- Intermediaries: Devices that help the flow of data between end devices. E.g., switches and routers. They use data forwarding and protocols to transmit data to the correct recipient. Intermediaries can function at different layers of the OSI model, like routers in the Network Layer and switches in the Data Link Layer. They help provide secure transmission of data to end devices using protocols
+                  - NICs: A device that is installed with every device that connects to a network. It is assigned a unique MAC address to be identifiable across a network in the Data Link Layer of the OSI model. Allows for either wired/wireless connection to a network (depending on its configuration) and sends/receives data for its device across the network.
+                  - Routers: Function at the Network Layer in the OSI model. They help direct data across a network using IP addresses. Directs network traffic. They can also implement security features across a network like firewalls. They find the most efficient and secure path for data to be transmitted to its recipient. Identifying efficient pathways in this way helps the router to perform traffic management across a network as one of its roles.
+                  - Switches: Function at the Data Link Layer in the OSI model. Connect devices on a network and use MAC addresses to forward data to the intended recipient. Much more efficient than hubs (which are now outdated and replaced by switches) as hubs broadcast incoming data to all connected devices, leading to network inefficiencies like collisions and slower data transmission. Switches help overcome this network congestion.
+- Network Media & Software Components: Network media include media like Ethernet cables and WiFi that allow for communication over a network. Software components like network protocols (TCP/IP, HTTP, FTP etc.) aid the correct transmission of data across a network. These network protocols control how data is segmented, processed, transmitted, received etc.
+                  - Network Management Software: Help perform metrics such as analysing performance, security and efficiency of a network for network administrators
+                  - Software Firewalls: unlike hardware firewalls, that protect entire networks, software firewalls operate for a single device and filter incoming/outgoing data packets based on pre-determined security rules in case malicious data circumvents security measures in place
+- Servers: Special computers that provide services for client devices in a network. E.g., help access webpages, store data and perform security measures like control user access across a network. They can also store and manage user data centrally
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
