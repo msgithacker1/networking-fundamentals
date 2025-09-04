@@ -25,3 +25,23 @@ Other protocols include:
 - FTP: Used at the Application layer for transferring files across a network to upload/download web pages 
 - TCP: Ensures reliable data transmission through error checking & recovery. Established a reliable connection between a recipient and sender
 - IP: Ensures data packets are routed to the correct, intended recipient
+
+
+Transmission:
+
+#Transmission refers to how data is exchanged between sender and recipient over different media
+
+Transmission Types:
+- Analog: Uses signals to deliver data, like in old radio broadcasts.
+- Digital: Transmits data as bits. Used in more modern technology.
+
+Transmission Media:
+- Twisted-pair cables: Used in modern Ethernet and LANs
+- Coaxial cables: Used in old-style TVs and early Ethernet 
+- Fibre-Optics: Used for high-speed communication over long distanes, crucial for Internet services, using light
+- Wireless: Used for communication without physical media. E.g., microwaves for satellite communication, infrared for close-range communication and radio waves for WiFi
+
+Transmission Modes:
+- Simplex: Only allows for one-way transmission of data. E.g., keyboard to laptop
+- Half-Duplex: Allows for two-way transmission but only one device can communicate at a time. E.g., a radio where one person has to finish speaking before the other can
+- Full-Duplex: Allows for two-way transmission at the same time. E.g., modern phone calls
