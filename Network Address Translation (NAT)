@@ -1,1 +1,23 @@
+#NAT is a modification made by a device like a router to change the soure and destination address of data packets whilst communicating between a private and public network
+#NAT is needed because private IPs can't be routed on the Internet like public IPs can so that private networks can function by themselves without interference from the Internet. Packets across the Internet can't be sent to these IPs (as outlined by RFC 1918, so IPs like from 192.168.0.0 to 192.168.225.225) 
+#This is one solution to the lack of IPV4 addresss available for all the devices connected to all networks around the world
+#It works by converting a private IP address (one used in a network such as for school or work) to a public IP assigned to the router 
+#This helps prevent exposure of private IP devices to the Internet, increasing their security and also allows the devices to communicate across the Internet with other devices without a public IP due to shortages
+
+#How it would work (for example):
+
+1. A device on a LAN would send a request to a web server through sending data to the router. This data has the Source IP as the device and Destination IP as that of the web server's
+2. The router performs NAT and rewrites the packet header so that the Source IP is now of the router's public IP and the Destination IP as that of the web eerver (still) and the data packet travels to the web server across the Internet
+3. The web server responds and sends data packets back to the router with Source IP as the web server IP and Destination IP as the router's public IP
+4. The router performs NAT and rewrites the packet header so that the Source IP is now of the web server's and the Destination IP is now of the device's IP
+
+#The router NAT table would keep track of IP mappings. In this case, it would remember that the port on the router (public IP) that communicates with the web server maps to the port on the device's IP
+#The router uses this to translate the public IP back into the private IP of the device
+
+#Different types of NAT:
+
+- Static NAT: 1-to-1 mappings of private IP directly to a public IP
+- Dynamic NAT: Mappings of private IP and public IP can change based on network demand. The public IP assigned is taken from a pool of available public IPs and terminated when the session finishes, returning back to the pool. Used when there aren't enough public IPs for each private IP but still want to allow the devices to connect to the internet 
+- Port Address Translation (PAT)/NAT Overload: Multiple private IPs on a local network share the same public IP but with different ports (as mentioned above) (most common in home and office networks) for internet access
+
 
