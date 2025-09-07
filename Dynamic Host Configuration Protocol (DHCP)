@@ -1,1 +1,22 @@
+#DHCP (Dynamic Host Control Protocol) automates the process of allocating an IP address to a device trying to connect to a network, to help the device communicate, as well as other network parameters like a DNS server
+#DHCP can recycle old IP addresses and allocate them to prevent duplication and more efficient allocation
+
+The DORA process DHCP uses:
+
+1. Discover: A device trying to connect to the network broadcasts a request for an IP address to a DHCP server. The device is now a DHCP client waiting to receive an IP from the DHCP server (can be a device like a router or any other device responsible for allocating IP addresses)
+2. Offer: The DHCP server sends an offer of an IP address to the DHCP client 
+3. Request: The DHCP client sends a request to the server, accepting the offer of the IP
+4. Ack (Acknowledge): The DHCP server sends acknowledgement to the client, confirming that the client is now offered that IP
+
+#The IP address given by the server is not permanent. Once the lease period for which the IP is valid for comes to a close, the client must send a renewal request to the server, to which the server would send an acknowledge message confirming the renewal of that IP
+
+
+
+
+
+
+
+
+
+
 
