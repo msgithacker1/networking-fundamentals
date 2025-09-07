@@ -1,1 +1,24 @@
+#The Domain Name System is designed to help resolve addresses to IP addresses for humans so that we don't have to memorise long IPs to reach a webpage
+
+#The DNS hierarchy goes like this:
+
+https://www.github.com .
+
+- "https": The scheme (i.e., protocol)
+- "www": Subdomain
+- "github": 2nd level domain
+- ".com": TLD (Top-Level Domain)
+- ".": Root Server (top of hierarchy)
+
+#How DNS resolution works:
+
+1. Your device wants to access a webpage. The first step is the device checks the DNS cache to see if it's been accessed and resolved recently. If not, resolution begins
+2. The request is passed onto the recursive DNS server to find the IP for you
+3. The recursive DNS server asks the root server for the IP. The root server doesn't know but points the recursive DNS server to the TLD server 
+4. The TLD server doesn't know either but directs the recursive DNS server to the authoritative name server for that webpage which fetches the IP and gives it to the recursive DNS server
+5. The recursive DNS server passes the IP onto the device and the device sets up a TCP/IP connection directly with the web IP to communicate with it
+
+
+
+
 
