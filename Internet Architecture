@@ -4,21 +4,29 @@
 # Disadvantages can be security issues (because each node may be exposed to vulnerabilities), duplication of files, resources may become unavailable if specific nodes are offline
 
 # Client-server network architecture has a server, a powerful computer that processes requests from clients and manages other functions such as storing data and applications. 
-
 # There are different tiers of client-server network architecture:
 
 1. Single-tier: One device is the client, server and database at the same time. It's quite straightforward but can pose some security issues
 2. Two-tier: 2 devices. One is the client, one is the server and database. 
+3. Three-tier: 3 devices. One is the client, the second is the application server and the third is the database server. The application server just manages logic and processing
+
+# N-tier client-server architecture, with multiple tiers/application servers, can significantly improve performance and scalability of the network. This is ideal for stuff like web services
+# BUT, you'd have to ensure the security of each tier and configuration can often get complicated/expensive. Network congestion is also an issue and if the server fails the entire network would fail
 
 
+# Hybrid network architecture is a blend of P2P and client-server architecture. Peers manage data and the central server may manage other tasks such as authentication to help get the best of both worlds
+# This is good because it can reduce network congestion
+# BUT if the central server goes offline, some services may become unavailable like authentication. The network may also become harder to manage and configure
 
+# Cloud architecture allows users to access services without managing the underlying hardware themselves - SaaS (software as a Service) - which is instead managed by third=party providers
+# Benefits can include scalability, no need to hire personal technicians to manage hardware and flexibility 
+# BUT it requires a stable Internet connection and providing your data to a third-party service may be deemed as a security issue
 
-
-
-
-
-
-
+# SDN (Software-Defined Networking) architecture involves separating the control plane (the part that controls where data traffic is directed to) and the data plane (the part that actually forwards the data traffic) which network devices, like routers, traditionally housed at the same time
+# Now, the software controller, where the control plane is now located, can just give instructions and the router/network device would follow
+# This SDN system is programmable, helping network administrators better administer network policy 
+# This helps make network management easier. Instead of individually managing each device, network configurations can easily be changed with the code
+# BUT it requires new skill sets and if the controller goes down then the network also goes down
 
 
 
