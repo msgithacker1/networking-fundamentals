@@ -1,4 +1,4 @@
-#The OSI Model dictates telecommunication and how data is exchanged across a network 
+#The OSI (Open Systems Interconnection) Model dictates telecommunication and how data is exchanged across a network 
 
 1. Application - simply provides network services. E.g., FTP, HTTP   <- Layer 7
 2. Presentation - translator. Applies encryption/decryption/data formatting to ensure the receiver understands the content of the communicated data
