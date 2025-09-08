@@ -1,1 +1,49 @@
+# Wireless networks utilise radio waves or other wireless signals for devices connected in a network to communicate with each other
+# Can be mobile, flexible and cheaper as no physical hardware is required, like cabling
+# BUT, can have short range and may be more susceptible to network attacks and susceptible to interference
+
+# A WIRELESS router manages the function of forwarding data packets between networks as well as providing wireless coverage
+# Routers can have WAN ports (to connect to a modem to receive network facilities from the ISP), LAN ports (to connect to devices on the local network), antennae (visible or build inside) to transmit and receive signals, a processor and memory to manage functions
+
+# Cell networks are in place due to cell towers that help provide coverage using electronic communications systems and antennas
+# The word "cell" actually just refers to the geographical space that a tower can help cover
+# These towers help provide cellular network connectivity and are managed by the Base Station Controllers that help manage connections to users between different cell towers (e.g., if the client is moving around, switching connection to a different tower)
+# These towers are then connected to the core network through fibre optics or microwaves
+# Macro cell towers cover a larger geographical space than micro cell towers
+
+# 2.4 GHz frequency in wireless communication is used by older WiFi standards and offers a connection with a greater geographical range but slower connectivity
+# 5 GHz frequency is used by newer WiFi standards and offers a much faster connection but smaller geographical range
+# Cellular bands have higher frequencies at 5G than at 4G
+# Lower frequency in general means slower but broader connectivity as it carries less data than higher frequencies 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
