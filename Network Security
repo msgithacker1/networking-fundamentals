@@ -1,1 +1,55 @@
+# The 3 most fundamental aims of network security are:
+
+1. Confidentiality: Is data secure from unauthorised users
+2. Integrity: Is data accurate and reliable
+3. Availability: Is data available to who it should be available to
+
+# Firewalls monitor outgoing and incoming network traffic based on predetermined rules/warning signs to look out for threats to the network
+# Can be hardware or software based or a combination of both
+
+1. Packet Filtering Firewall: Operates at the Network and Transport layers of the OSI model. Only examines the source and destination iP of the packet, protocols used and the ports
+2. Stateful Inspection Firewall: Smarter than packet filtering firewall as it understands the purpose of traffic across the firewall. Checks if a previous, legitimate connection had been made when the packet arrives etc.
+3. Application Layer (or Proxy) Firewall: Operates the Application layer of the OSI model. Inspects the actual content of the data packets like the protocol used to see if it's malicious
+4. Next Generation Firewall (NGFW): This firewall uses a mix of stateful inspection firewall as well as other new techniques like deep packet inspection, IDS/IPS ability
+
+# Intrusion Detection Systems (IDS): Observes traffic for malicious traffic but only alerts and doesn't take action
+# Intrusion Prevention Systems (IPS): Observes traffic for malicious traffic but actively blocks/stops the malicious activity as well
+
+# They both analyse network packets based on this:
+
+1. Signature-based detection: Matches the content against a known set of exploits to see if it's malicious
+2. Anomaly-based detection: Sees if this network traffic is unusual
+
+# Network-based IDS/IPS (NIDS/NIPS): Involves placing these systems at specific points in the network to optimise security
+# Host-based IDS/IPS (HIDS/HIPS): Involves placing these systems at specific devices  and monitors traffic at that specific device
+
+
+
+# Network-security can be optimised if:
+
+1. Periodic pentesting takes place
+2. Logs are monitored and threats dealt with
+3. Clear permissions/policy outlined
+4. Regular updates/upgrades are in place
+5. There are multiple security layers (e.g., firewalls, IDS/IPS in place etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
