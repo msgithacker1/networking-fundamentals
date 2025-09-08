@@ -1,1 +1,33 @@
+# Peer-to-peer network architecture is any network model where the nodes would act as both clients and servers. It may be full or partial (a server may coordinate some tasks but NOT data)
+# These share resources such as files with direct connections to one another 
+# Advantages can include scalability (because more nodes = more resources available to each node overall), resilience (because if one node goes down, the network can still survive) and cheaper (no need for a central server)
+# Disadvantages can be security issues (because each node may be exposed to vulnerabilities), duplication of files, resources may become unavailable if specific nodes are offline
+
+# Client-server network architecture has a server, a powerful computer that processes requests from clients and manages other functions such as storing data and applications. 
+
+# There are different tiers of client-server network architecture:
+
+1. Single-tier: One device is the client, server and database at the same time. It's quite straightforward but can pose some security issues
+2. Two-tier: 2 devices. One is the client, one is the server and database. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
