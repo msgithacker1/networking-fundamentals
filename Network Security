@@ -13,6 +13,7 @@
 4. Next Generation Firewall (NGFW): This firewall uses a mix of stateful inspection firewall as well as other new techniques like deep packet inspection, IDS/IPS ability (blends traditional firewalls with these new techniques)
 
 # Firewalls may have Unified Threat Management (UTM) features which allow for a combination of defence mechanisms integrated into the firewall like antivirus and deep packet inspection 
+# Firewalls can be USELESS if data traffic is encrypted and if the firewall configurations and rules are out-of-date, making it incapable of handling more modern threats
 
 # Intrusion Detection Systems (IDS): Observes traffic for malicious traffic but only alerts and doesn't take action
 # Intrusion Prevention Systems (IPS): Observes traffic for malicious traffic but actively blocks/stops the malicious activity as well
