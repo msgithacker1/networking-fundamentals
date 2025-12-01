@@ -14,7 +14,9 @@
 - Assigned to every network-connected device that relies on Internet Protocol
 - Used by routers to direct data to other routers
 - Can be static or dynamic
-- IPV4 is 32-bit (E.g., 192.168.0.1 has 4 octets - each of the 4 parts - which are each represented by 8-bit binary numbers so overall 32-bits) and IPV6 is 128-bit, designed due to shortage of available IPs
+- IPV4 is 32-bit (E.g., 192.168.0.1 has 4 octets - each of the 4 parts - which are each represented by 8-bit binary numbers so overall 32-bits)
+- IPV4 addresses starting with "192.168" and other classes of private IPs are private IPs and not going to be usable on a public outer network, like the Internet
+- IPV6 is 128-bit, designed due to shortage of available IPs
 - IP addresses for local use (not routable on the Internet) will often be assigned from RFC 1918 IPs on a LAN/private network
 
 = ARP (Address Resolution Protocol) is often used to map MAC addresses to known IP addresses to help devices send data frames to the correct recipient. The sender would use ARP to find the MAC of the destination IP and send (with the switch seamlessly forwarding the data frame to the recipient)
