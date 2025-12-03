@@ -20,11 +20,12 @@
 # TCP/IP model conveys how network data transmission happens. the OSI model is more theoretical, explaining how networks function.
 
 Other protocols include:
-- HTTP: Used at the Application layer for transferring web pages across a network to a receiver
-- SMTP: Used at the Application layer for transferring emails reliably between servers for it to reach the correct recipient
-- FTP: Used at the Application layer for transferring files across a network to upload/download web pages 
+- HTTP (80)/HTTPS (443): Used at the Application layer for transferring web pages across a network to a receiver - for TCP
+- SMTP (25): Used at the Application layer for transferring emails reliably between servers for it to reach the correct recipient - for TCP
+- FTP (21): Used at the Application layer for transferring files across a network to upload/download web pages  - for TCP
 - TCP: Ensures reliable data transmission through error checking & recovery. Established a reliable connection between a recipient and sender
 - IP: Ensures data packets are routed to the correct, intended recipient
+
 
 
 Transmission:
