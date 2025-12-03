@@ -22,6 +22,7 @@
 = ARP (Address Resolution Protocol) is often used to map MAC addresses to known IP addresses to help devices send data frames to the correct recipient. The sender would use ARP to find the MAC of the destination IP and send (with the switch seamlessly forwarding the data frame to the recipient)
 
 #Ports:
+- Ports are just a way to access a service on a machine over the Internet
 - Different services on a device are assigned unique ports
 - Often used for interacting with a device for multiple services to sort network traffic for different reasons. Applications/services running on different ports would "listen" and respond to requests e.g., a webpage request 
 - Work with TCP and UDP at the Transport Layer of the OSI model
