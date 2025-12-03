@@ -1,13 +1,18 @@
 #The OSI (Open Systems Interconnection) Model dictates telecommunication and how data is exchanged across a network 
 
-1. Application - simply provides network services. E.g., FTP, HTTP   <- Layer 7
-2. Presentation - translator. Applies encryption/decryption/data formatting to ensure the receiver understands the content of the communicated data
-3. Session - dictates opening/termination/management of a connection/session between 2 communicators. Communication is managed here 
-4. Transport - segment, reorganises data and transmits it to the receiver and error checks
-5. Network - routes data to its destination. Routers operate here
-6. Data Link - the nodes between which data is transmitted using MAC addresses. Devices like switches operate at this layer
-7. Physical - the actual data transmit across physical media, like Ethernet   <- Layer 1
+Application - simply provides network services. E.g., FTP, HTTP   <- Layer 7
+Presentation - translator. Applies encryption/decryption/data formatting to ensure the receiver understands the content of the communicated data. Actual media (e.g., PNG, JPEG, MOV etc.)
+Session - dictates opening/termination/management of a connection/session between 2 communicators. Communication is managed here 
+Transport - segment, reorganises data and transmits it to the receiver and error checks (TCP and UDP)
+Network - routes data to its destination. Routers operate here. IP addresses are at this layer.
+Data Link - the nodes between which data is transmitted using MAC addresses. Devices like switches operate at this layer
+Physical - the actual data transmit across physical media, like Ethernet and cabling   <- Layer 1
 
+Mnemonic to use: Please Do Not Throw Saucy Pizza Away
+
+-> We receive data in the order Layer 1 to Layer 7
+-> We transmit data in the order Layer 7 to Layer 1
+-> If we need to troubleshoot, do it from Layer 1 to Layer 7
 
 # The TCP/IP model condenses the OSI model down for more practical implementation over the Internet and between other devices by combining certain layers from the OSI model. Therefore, it is more suitable for Internet-based data exchange, meeting modern technological needs
 
@@ -16,12 +21,15 @@
 3. Internet - IP functions at this layer. Ensures data packets are routed to the destination correctly with the most logical route of transmission
 4. Link - deals with physical network media during communication. E.g., Ethernet and WiFi
 
+Mnmenonic to use: Lift In The Apartment
+
 #Requests move down the OSI and TCP/IP models. E.g., in TCP/IP, HTTP used to request a webpage starts at Application. TCP ensures the data is transferred reliably at the Transport layer by establishing a connection between the sender and receiver. IP ensures the data is routed to the correct destination at the Network layer. Finally, the data is moved across the physical media, like Ethernet, to reach the destination in the Link layer
 # TCP/IP model conveys how network data transmission happens. the OSI model is more theoretical, explaining how networks function.
 
 Other protocols include:
 - HTTP (80)/HTTPS (443): Used at the Application layer for transferring web pages across a network to a receiver - for TCP
 - SMTP (25): Used at the Application layer for transferring emails reliably between servers for it to reach the correct recipient - for TCP
+= SMB (139 & 445 on later versions of Windows): Used for file shares
 - FTP (21): Used at the Application layer for transferring files across a network to upload/download web pages  - for TCP
 - TCP: Ensures reliable data transmission through error checking & recovery. Established a reliable connection between a recipient and sender
 - IP: Ensures data packets are routed to the correct, intended recipient
