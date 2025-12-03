@@ -6,7 +6,7 @@
 
 #MAC Addresses:
 - 48-bit, 6 pairs of hexadecimals joined together with a colon.
-- First 24-bits identify the manufacturer who created the NIC that the MAC is assigned to. Second set of 24-bits identify the device itself.
+- First 24-bits identify the manufacturer who created the NIC that the MAC is assigned to (the identifier). Second set of 24-bits identify the device itself.
 - Data is sent as frames between devices on a LAN using MAC addresses and switch forwarding.
 - Data is sent as frames from devices to a router using MAC addresses. A router would strip the data of the MAC and find the destination IP, repackage with a new data frame containing source MAC (its MAC) and destination MAC (the MAC of the router it's going to) as a hop. The new router would strip the data of the MAC, find the IP of the destination and repackage with a new source and destination MAC and direct it to the correct device on the network (how data is sent using MAC across different networks)
 
