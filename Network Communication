@@ -32,5 +32,7 @@
 
 
 
+If someone wanted to access a specific service on a specific port on a different machine, it would use a 3-way TCP handshake to establish a connection.
 
+It would send a SYN packet requesting connection to that port. Receive a SYN-ACK back and then send a final ACK to confirm connection.
 
