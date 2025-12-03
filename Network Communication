@@ -30,6 +30,7 @@
 - Registered Ports are registered with the IANA but not as well monitored
 - Dynamic/Private Ports are used for temporary services
 
+https://github.com/msgithacker1/networking-fundamentals/blob/main/Common%20Protocols.png
 
 
 If someone wanted to access a specific service on a specific port on a different machine, it would use a 3-way TCP handshake to establish a connection.
