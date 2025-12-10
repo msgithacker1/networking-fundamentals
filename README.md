@@ -81,11 +81,9 @@ After:
 
 
 
-> **Hint:** To find the broadcast IP of a subnet, add 1 to the number of hosts. Finally, add this number to the network IP address to find the broadcast IP. If the number exceeds 255, you may have to start incrementing the previous octet of the network IP address to find the broadcast IP.
 
-{% hint style="info" %}
-To find the broadcast IP of a subnet, add 1 to the number of hosts. Finally, add this number to the network IP address to find the broadcast IP. If the number exceeds 255, you may have to start incrementing the previous octet of the network IP address to find the broadcast IP.
-{% endhint %}
+
+> **Hint:** To find the broadcast IP of a subnet, add 1 to the number of hosts. Finally, add this number to the network IP address to find the broadcast IP. If the number exceeds 255, you may have to start incrementing the previous octet of the network IP address to find the broadcast IP.
 
 
 
